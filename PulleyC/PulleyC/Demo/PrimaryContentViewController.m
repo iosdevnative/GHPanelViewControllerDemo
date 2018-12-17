@@ -74,4 +74,12 @@
   UIViewController *primaryContent = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"PrimaryTransitionTargetViewController"];
   [[self pulleyViewController] setPrimaryContentViewController:primaryContent animated:true completion:nil];
 }
+
+- (IBAction)menuHandler:(UISwitch *)sender {
+    [[self pulleyViewController] isBottomDrawerHidden:![sender isOn]];
+}
+
+
+
+
 @end

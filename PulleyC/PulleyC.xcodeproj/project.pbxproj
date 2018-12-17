@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F4FF71321BADD2E00BAF03C /* GHPanelViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4FF71221BADD1E00BAF03C /* GHPanelViewController.framework */; };
-		7F4FF71421BADD2E00BAF03C /* GHPanelViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4FF71221BADD1E00BAF03C /* GHPanelViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7F905E6A21B7CAC700B4DBAA /* PrimaryContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F905E6021B7CAC700B4DBAA /* PrimaryContentViewController.m */; };
 		7F905E6B21B7CAC700B4DBAA /* DrawerContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F905E6121B7CAC700B4DBAA /* DrawerContentViewController.m */; };
 		7F905E6C21B7CAC700B4DBAA /* PrimaryTransitionTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F905E6421B7CAC700B4DBAA /* PrimaryTransitionTargetViewController.m */; };
 		7F905E6E21B7CAC700B4DBAA /* CustomMaskExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F905E6621B7CAC700B4DBAA /* CustomMaskExample.m */; };
+		AC09CC6C21C7903500BB605C /* GHPanelViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC09CC6B21C7902D00BB605C /* GHPanelViewController.framework */; };
+		AC09CC6D21C7903500BB605C /* GHPanelViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC09CC6B21C7902D00BB605C /* GHPanelViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AC4C6ADF21B5BEF300BD1269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4C6ADE21B5BEF300BD1269 /* AppDelegate.m */; };
 		AC4C6AE521B5BEF300BD1269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4C6AE321B5BEF300BD1269 /* Main.storyboard */; };
 		AC4C6AE721B5BEF400BD1269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4C6AE621B5BEF400BD1269 /* Assets.xcassets */; };
@@ -21,16 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F4FF71121BADD1E00BAF03C /* PBXContainerItemProxy */ = {
+		AC09CC6A21C7902D00BB605C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7F4FF70D21BADD1E00BAF03C /* GHPanelViewController.xcodeproj */;
+			containerPortal = AC09CC6621C7902C00BB605C /* GHPanelViewController.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7F8EDB6221BABA8E002382CC;
 			remoteInfo = GHPanelViewController;
 		};
-		7F4FF71521BADD2E00BAF03C /* PBXContainerItemProxy */ = {
+		AC09CC6E21C7903500BB605C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7F4FF70D21BADD1E00BAF03C /* GHPanelViewController.xcodeproj */;
+			containerPortal = AC09CC6621C7902C00BB605C /* GHPanelViewController.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 7F8EDB6121BABA8E002382CC;
 			remoteInfo = GHPanelViewController;
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7F4FF71421BADD2E00BAF03C /* GHPanelViewController.framework in Embed Frameworks */,
+				AC09CC6D21C7903500BB605C /* GHPanelViewController.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F4FF70D21BADD1E00BAF03C /* GHPanelViewController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GHPanelViewController.xcodeproj; path = GHPanelViewController/GHPanelViewController.xcodeproj; sourceTree = "<group>"; };
 		7F905E6021B7CAC700B4DBAA /* PrimaryContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimaryContentViewController.m; sourceTree = "<group>"; };
 		7F905E6121B7CAC700B4DBAA /* DrawerContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerContentViewController.m; sourceTree = "<group>"; };
 		7F905E6321B7CAC700B4DBAA /* CustomMaskExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMaskExample.h; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		7F905E6721B7CAC700B4DBAA /* PrimaryContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimaryContentViewController.h; sourceTree = "<group>"; };
 		7F905E6821B7CAC700B4DBAA /* PrimaryTransitionTargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimaryTransitionTargetViewController.h; sourceTree = "<group>"; };
 		7F905E6921B7CAC700B4DBAA /* DrawerContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerContentViewController.h; sourceTree = "<group>"; };
+		AC09CC6621C7902C00BB605C /* GHPanelViewController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GHPanelViewController.xcodeproj; path = GHPanelViewController/GHPanelViewController.xcodeproj; sourceTree = "<group>"; };
 		AC4C6ADA21B5BEF300BD1269 /* PulleyC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulleyC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4C6ADD21B5BEF300BD1269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC4C6ADE21B5BEF300BD1269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,21 +76,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4FF71321BADD2E00BAF03C /* GHPanelViewController.framework in Frameworks */,
+				AC09CC6C21C7903500BB605C /* GHPanelViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F4FF70E21BADD1E00BAF03C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7F4FF71221BADD1E00BAF03C /* GHPanelViewController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7F905E6F21B7CACC00B4DBAA /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,10 +98,18 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		AC09CC6721C7902C00BB605C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC09CC6B21C7902D00BB605C /* GHPanelViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AC4C6AD121B5BEF200BD1269 = {
 			isa = PBXGroup;
 			children = (
-				7F4FF70D21BADD1E00BAF03C /* GHPanelViewController.xcodeproj */,
+				AC09CC6621C7902C00BB605C /* GHPanelViewController.xcodeproj */,
 				AC4C6ADC21B5BEF300BD1269 /* PulleyC */,
 				AC4C6ADB21B5BEF300BD1269 /* Products */,
 			);
@@ -153,7 +153,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7F4FF71621BADD2E00BAF03C /* PBXTargetDependency */,
+				AC09CC6F21C7903500BB605C /* PBXTargetDependency */,
 			);
 			name = PulleyC;
 			productName = PulleyC;
@@ -187,8 +187,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 7F4FF70E21BADD1E00BAF03C /* Products */;
-					ProjectRef = 7F4FF70D21BADD1E00BAF03C /* GHPanelViewController.xcodeproj */;
+					ProductGroup = AC09CC6721C7902C00BB605C /* Products */;
+					ProjectRef = AC09CC6621C7902C00BB605C /* GHPanelViewController.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -199,11 +199,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		7F4FF71221BADD1E00BAF03C /* GHPanelViewController.framework */ = {
+		AC09CC6B21C7902D00BB605C /* GHPanelViewController.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = GHPanelViewController.framework;
-			remoteRef = 7F4FF71121BADD1E00BAF03C /* PBXContainerItemProxy */;
+			remoteRef = AC09CC6A21C7902D00BB605C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -238,10 +238,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7F4FF71621BADD2E00BAF03C /* PBXTargetDependency */ = {
+		AC09CC6F21C7903500BB605C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GHPanelViewController;
-			targetProxy = 7F4FF71521BADD2E00BAF03C /* PBXContainerItemProxy */;
+			targetProxy = AC09CC6E21C7903500BB605C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

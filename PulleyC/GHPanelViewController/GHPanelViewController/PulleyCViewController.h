@@ -194,6 +194,7 @@ typedef struct DrawerDistanceFromBottom {
 - (void) bounceDrawer:(CGFloat) height speedMultiplier:(CGFloat) multimplier;
 
 - (void) setDrawerPosition:(PulleyCPosition *) position animated:(BOOL) animated;
+- (void) setDrawerPosition:(PulleyCPosition *) position animated:(BOOL) animated completion:(PulleyAnimationCompletionBlock) completion;
 
 - (void) setPrimaryContentViewController:(UIViewController *) controller animated:(BOOL) animated completion:(_Nullable  PulleyAnimationCompletionBlock) completion;
 
@@ -213,6 +214,8 @@ typedef struct DrawerDistanceFromBottom {
 - (void) makeUIAdjustmentsForFullscreen:(CGFloat) progress bottomSafeArea:(CGFloat)safeArea;
 
 - (void) drawerChangedDistanceFromBottom:(PulleyCViewController *) drawer distance:(CGFloat)distance bottomSafeArea:(CGFloat)safeArea;
+
+- (void) isBottomDrawerHidden:(BOOL) flag;
 
 @end
 
